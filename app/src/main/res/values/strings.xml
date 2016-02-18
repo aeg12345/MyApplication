@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="fNum">Enter First Number</string>
+    <string name="sNum">Enter Second Number</string>
+    <string name="res">The Result is</string>
+    <string name="sum">+</string>
+
+</resources>
