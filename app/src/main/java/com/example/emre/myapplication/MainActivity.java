@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void calculate(View v){
 
+        int num1=Integer.valueOf(etnum1.getText().toString());
+        int num2=Integer.valueOf(etnum2.getText().toString());
+        int num3=num1+num2;
     }
 
     @Override
