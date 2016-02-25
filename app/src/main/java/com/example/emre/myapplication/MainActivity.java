@@ -11,9 +11,12 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.*;
+import android.widget.TextView;
+
 public class MainActivity extends AppCompatActivity {
         EditText etnum1,etnum2;
     Button sumbtn;
+    TextView txt1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         etnum1=(EditText)findViewById(R.id.et_num1);
         etnum2=(EditText)findViewById(R.id.et_num2);
+        txt1=(TextView)findViewById(R.id.txt1);
 
     }
 
@@ -42,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         int num1=Integer.valueOf(etnum1.getText().toString());
         int num2=Integer.valueOf(etnum2.getText().toString());
         int num3=num1+num2;
+        txt1.setText( String.valueOf(num3) );
     }
 
     @Override
